@@ -1,0 +1,52 @@
+{
+    "dulieu" :[
+        {
+            "id" :1,
+            "title" :"Nguyễn Quang Lợi",
+            "bigImage" : "/images/sp1/1.jpg",
+            "productImage" :["/images/sp1/1.jpg","/images/sp1/2.jpg","/images/sp1/3.jpg"],
+            "des" :"1 chàng trai đến từ Nam Định",
+            "cilent" :"Võ hoàng hải",
+            "role" :"Designer",
+            "cat" :"website",
+            "link":"http://facebook.com.vn",
+            "duongDanSEO" :"nguyen-quang-loi"
+        },
+        {
+            "id" :2,
+            "title" :"Đoàn Văn Duy",
+            "bigImage" : "/images/sp2/1.jpg",
+            "productImage" :["/images/sp2/1.jpg","/images/sp2/2.jpg","/images/sp2/3.jpg"],
+            "des" :"Uống rượu như nước lã đến từ bắc giang",
+            "cilent" :"Nguyễn Văn Hiếu",
+            "role" :"thiết kế web",
+            "cat" :"nhặtbóng",
+            "link":"http://zing.vn",
+            "duongDanSEO" :"doan-van-duy"
+        },
+        {
+            "id" :3,
+            "title" :"Phan Trung Hiếu",
+            "bigImage" : "/images/sp3/1.jpg",
+            "productImage" :["/images/sp3/1.jpg","/images/sp3/2.jpg","/images/sp3/3.jpg"],
+            "des" :"Quê nghĩa trang Văn Điển-Đài hóa thân hoàn vũ",
+            "cilent" :"Nguyễn Hiển Hảo",
+            "role" :"Lao công",
+            "cat" :"Admin",
+            "link":"http://youtube.com",
+            "duongDanSEO" :"phan-trung-hieu"
+        },
+        {
+            "id" :4,
+            "title" :"Lương Thế Vinh",
+            "bigImage" : "/images/sp4/1.png",
+            "productImage" :["/images/sp4/1.png","/images/sp4/2.png","/images/sp4/3.jpg"],
+            "des" :"Học rộng tài cao-Tên của nhiều trường học danh tiếng trong nước",
+            "cilent" :"Lê Lợi",
+            "role" :"Tướng quân",
+            "cat" :"Giếtngười",
+            "link":"http://24h.com.vn",
+            "duongDanSEO" :"luong-the-vinh"
+        }
+    ]
+}

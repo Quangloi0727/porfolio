@@ -1,0 +1,20 @@
+<% include header %>
+   <h1>Danh sách đã xem là:</h1>
+   	<div class="ish-row ish-content ish-portfolio ish-macy">
+   <% ds.forEach(function(id){ %>    
+   <% duLieuJson.dulieu.forEach(function(motsanpham){ 
+       if(motsanpham.id==id){ %>
+          <a class="ish-portfolio-item ish--tc13 ish-portfolio-<%= motsanpham.cat %>" href="chi-tiet/<%= motsanpham.duongDanSEO %>.<%= motsanpham.id %>">
+            <div class="ish-portfolio-item__image-container">
+              <img class="ish-portfolio-item__image" src="<%= motsanpham.bigImage %>" alt="business cards">
+            </div>
+            <div class="ish-portfolio-item__desc">
+              <span class="ish-portfolio-item__title"> <%= motsanpham.title %></span>
+              <span class="ish-portfolio-item__subtitle"> <%= motsanpham.cat %></span>
+            </div>
+        </a>
+        <% } 
+          })
+     }) %>
+   </div>
+<% include footer %>
